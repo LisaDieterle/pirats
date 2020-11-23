@@ -1,7 +1,8 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const directoryPath = path.join(__dirname, "/public");
+const directoryPath = path.join(__dirname, "./public");
+const port = process.env.PORT || 3000;
 
 app.use(express.static(directoryPath));
 
@@ -9,7 +10,7 @@ app.get('/', function (req, res) {
 
 });
 
-app.listen(3000, () => console.log('listening at 3000'));
+app.listen(port, () => console.log('listening at 3000'));
 
 
 //make a list to store your list of words
