@@ -1,0 +1,158 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Karrik Regular;
+
+}
+
+@font-face {
+  font-family: Karrik Regular;
+  src: url(assets/font/Karrik-Regular.woff);
+}
+
+@font-face {
+  font-family: Karrik Italic;
+  src: url(assets/font/Karrik-Italic.woff);
+}
+
+#h1 {
+  width: 15%;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 10em;
+  color: black;
+}
+
+#type {
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  margin-left: 300px;
+  text-align: left;
+  width: 70%;
+  height: 100%;
+  z-index: 10;
+}
+
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0px;
+  z-index: -10;
+}
+
+.header {
+  position: fixed;
+  width: 50%;
+  top: 900px;
+  left: 1150px;
+  margin-top: 40px;
+  font-size: 100px;
+  line-height: 1;
+  color: black;
+  z-index: 1;
+}
+
+.profile {
+  position: fixed;
+  top: 180px;
+  left: 1200px;
+  z-index: 1;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.custom-file-input.sel {
+  border: 1px solid green;
+}
+
+.custom-file-input {
+  color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.custom-file-input::before {
+  content: '📷';
+  color: black;
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+#blah {
+  top: 50px;
+  width: 100%;
+  z-index: 2;
+  clip-path: circle(120px at center);
+}
+
+.button {
+  outline-style: ;
+  background: none;
+  border: none;
+  position: fixed;
+  bottom: 37.5px;
+  position: absolute;
+  display: inline-block;
+  left: 90px;
+  color: black;
+  font-weight: 400;
+  font-size: 35px;
+  font-family: Karrik Regular;
+  ;
+}
+
+a.archive {
+  bottom: 38.5px;
+  position: absolute;
+  display: inline-block;
+  margin-bottom: 0;
+  font-family: Karrik Regular;
+  ;
+  font-weight: 400;
+  font-size: 35px;
+  left: 326px;
+  color: black;
+  text-decoration: none;
+}
+
+a.archive:hover {
+  bottom: 38.5px;
+  position: absolute;
+  display: inline-block;
+  margin-bottom: 0;
+  font-family: Karrik Italic;
+  font-weight: 400;
+  font-size: 35px;
+  left: 326px;
+  color: black;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  font-family: Karrik Italic;
+}
+
+.avatar {
+  position: absolute;
+  top: 450px;
+  left: 50px;
+  z-index: 4;
+}
+
+#avatar {
+  width: 40%;
+}
+
+audio {}
