@@ -1,6 +1,6 @@
 //make a list to store your list of words
 const wordsArray = [
-  'l',
+  ' ',
 
 ];
 
@@ -40,6 +40,11 @@ function mouseDragged () {
   line(mouseX, mouseY, pmouseX, pmouseY);
 }
 
+
 function saveImage() {
   save('Your Drawing ' + '.jpg');
 }
+
+function playSound(animal) {
+document.getElementById(animal).play();
+};
